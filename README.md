@@ -85,3 +85,17 @@ import sys
 
 args = sys.argv #list
 ```
+
+# Enumerate string
+
+Rust
+```
+for (i, ch) in s.chars().enumerate() {
+}
+```
+
+Python
+```
+for i, ch in enumerate(s):
+    ...
+```
