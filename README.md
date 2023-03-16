@@ -5,7 +5,7 @@
 Rust
 ```
 println!("Type something")
-let mut line = String:new();
+let mut line = String::new();
 std::io::stdin.read_line(&mut line)
 ```
 
@@ -48,7 +48,7 @@ n = random.randint(0, 10)
 
 Rust
 ```
-let my_str = ""1024".to_string();
+let my_str = "1024".to_string();
 let my_int: i32 = my_string.parse();
 ```
 
