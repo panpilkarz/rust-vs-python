@@ -1,13 +1,13 @@
 # rust-vs-python
 
-* [Read line from stdin](https://github.com/panpilkarz/rust-vs-python#read-line-from-stdin)
-* [Print formatted string](https://github.com/panpilkarz/rust-vs-python#print-formatted-string)
-* [Random number in range](https://github.com/panpilkarz/rust-vs-python#random-number-in-range)
-* [String to int](https://github.com/panpilkarz/rust-vs-python#string-to-int)
-* [Exit with code](https://github.com/panpilkarz/rust-vs-python#exit-with-code)
-* [Read command line arguments](https://github.com/panpilkarz/rust-vs-python#read-command-line-arguments)
-* [Enumerate string](https://github.com/panpilkarz/rust-vs-python#enumerate-string)
-* [Print line separator](https://github.com/panpilkarz/rust-vs-python#print-line-separator)
+* [Read line from stdin](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-line-from-stdin)
+* [Print formatted string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-formatted-string)
+* [Random number in range](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#random-number-in-range)
+* [String to int](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#string-to-int)
+* [Exit with code](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#exit-with-code)
+* [Read command line arguments](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-command-line-arguments)
+* [Enumerate string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-string)
+* [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
 
 ## Read line from stdin
 
