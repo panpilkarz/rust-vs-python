@@ -8,6 +8,7 @@
 * [Read command line arguments](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-command-line-arguments)
 * [Enumerate string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-string)
 * [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
+* [Map vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#map-vector)
 
 ## Read line from stdin
 
@@ -104,4 +105,18 @@ println!("{}", "-".repeat(80))
 
 ```py
 print("-" * 80)
+```
+
+## Map vector
+
+```rs
+let v = vec![1, 2, 3];
+let new_vec = v.iter().map(|num| {
+    num * 2
+});
+```
+
+```py
+v = [1, 2, 3];
+new_vec = map(num * 2, v)
 ```
