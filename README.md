@@ -10,6 +10,7 @@
 * [Enumerate vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-vector)
 * [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
 * [Map vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#map-vector)
+* [Ternary operator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#ternary-operator)
 
 ## Read line from stdin
 
@@ -131,4 +132,15 @@ let new_vec = v.iter().map(|num| {
 ```py
 v = [1, 2, 3];
 new_vec = map(num * 2, v)
+```
+
+## Ternary operator
+```rs
+let a = 5;
+let x = (a > 10) { 20 } else { 30 };
+```
+
+``py
+a = 5
+x = 12 if a > 10 else 30;
 ```
