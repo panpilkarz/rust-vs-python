@@ -7,6 +7,7 @@
 * [Exit with code](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#exit-with-code)
 * [Read command line arguments](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-command-line-arguments)
 * [Enumerate string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-string)
+* [Enumerate vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-vector)
 * [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
 * [Map vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#map-vector)
 
@@ -97,6 +98,17 @@ for i, ch in enumerate(s):
     ...
 ```
 
+## Enumerate vector
+
+```rs
+for (i, element) in vector.iter().enumerate() {
+}
+```
+
+```py
+for i, element in vector:
+    ...
+```
 ## Print line separator
 
 ```rs
