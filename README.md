@@ -14,7 +14,6 @@
 
 ## Read line from stdin
 
-Rust
 ```rs
 println!("Type something")
 let mut line = String::new();
