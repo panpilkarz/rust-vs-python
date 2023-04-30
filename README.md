@@ -55,7 +55,7 @@ n = random.randint(0, 10)
 
 ```rs
 let my_str = "1024".to_string();
-let my_int: i32 = my_string.parse();
+let my_int = my_string.parse::<u32>();
 ```
 
 ```py
