@@ -140,7 +140,7 @@ let a = 5;
 let x = a > 10 { 20 } else { 30 };
 ```
 
-``py
+```py
 a = 5
 x = 12 if a > 10 else 30;
 ```
