@@ -11,6 +11,7 @@
 * [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
 * [Map vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#map-vector)
 * [Ternary operator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#ternary-operator)
+* [Get min and max of two values](#get-min-and-max-of-two-values)
 
 ## Read line from stdin
 
@@ -142,4 +143,16 @@ let x = a > 10 { 20 } else { 30 };
 ```py
 a = 5
 x = 12 if a > 10 else 30;
+```
+
+## Get min and max of two values
+
+```py
+max_v, min_v = max(10, 50), min(10, 50)
+```
+
+```rs
+use std::cmp::{min, max};
+
+let (max_v, min_v) = (max(10, 50), min(10, 50));
 ```
