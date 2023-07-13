@@ -1,16 +1,16 @@
 # rust-vs-python
 
-* [Read line from stdin](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-line-from-stdin)
-* [Print formatted string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-formatted-string)
-* [Random number in range](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#random-number-in-range)
-* [String to int](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#string-to-int)
-* [Exit with code](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#exit-with-code)
-* [Read command line arguments](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#read-command-line-arguments)
-* [Enumerate string](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-string)
-* [Enumerate vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#enumerate-vector)
-* [Print line separator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#print-line-separator)
-* [Map vector](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#map-vector)
-* [Ternary operator](https://github.com/panpilkarz/rust-vs-python/blob/main/README.md#ternary-operator)
+* [Read line from stdin](#read-line-from-stdin)
+* [Print formatted string](#print-formatted-string)
+* [Random number in range](#random-number-in-range)
+* [String to int](#string-to-int)
+* [Exit with code](#exit-with-code)
+* [Read command line arguments](#read-command-line-arguments)
+* [Enumerate string](#enumerate-string)
+* [Enumerate vector](#enumerate-vector)
+* [Print line separator](#print-line-separator)
+* [Map vector](#map-vector)
+* [Ternary operator](#ternary-operator)
 * [Get min and max of two values](#get-min-and-max-of-two-values)
 
 ## Read line from stdin
