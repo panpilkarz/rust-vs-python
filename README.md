@@ -137,7 +137,7 @@ new_vec = map(num * 2, v)
 ## Ternary operator
 ```rs
 let a = 5;
-let x = a > 10 { 20 } else { 30 };
+let x = if a > 10 { 20 } else { 30 };
 ```
 
 ```py
