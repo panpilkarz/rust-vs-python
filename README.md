@@ -12,7 +12,7 @@
 * [Map vector](#map-vector)
 * [Ternary operator](#ternary-operator)
 * [Get min and max of two values](#get-min-and-max-of-two-values)
-* [Write/read from/to file](#readwrite-fromto-file)
+* [Read/write from/to file](#readwrite-fromto-file)
 
 ## Read line from stdin
 
