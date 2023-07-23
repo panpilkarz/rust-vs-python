@@ -12,6 +12,7 @@
 * [Map vector](#map-vector)
 * [Ternary operator](#ternary-operator)
 * [Get min and max of two values](#get-min-and-max-of-two-values)
+* [Write/read from/to file](#readwrite-fromto-file)
 
 ## Read line from stdin
 
@@ -155,4 +156,24 @@ max_v, min_v = max(10, 50), min(10, 50)
 use std::cmp::{min, max};
 
 let (max_v, min_v) = (max(10, 50), min(10, 50));
+```
+
+## Read/write from/to file
+```py
+with open("foo.txt", "w") as f:
+    f.write("Hello, world!")
+
+content = open("foo.txt").read()
+```
+
+```rs
+use std::fs::File;
+use std::io::prelude::*;
+
+let mut f = File::create("foo.txt").unwrap();
+f.write_all(b"Hello, world!").unwrap();
+
+let mut f = File::open("foo.txt").unwrap();
+let mut content = String::new();
+f.read_to_string(&mut content).unwrap();
 ```
