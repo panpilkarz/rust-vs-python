@@ -13,6 +13,7 @@
 * [Ternary operator](#ternary-operator)
 * [Get min and max of two values](#get-min-and-max-of-two-values)
 * [Read/write from/to file](#readwrite-fromto-file)
+* [Get current timestamp in seconds](#get-current-timestamp-in-seconds)
 
 ## Read line from stdin
 
@@ -176,4 +177,19 @@ f.write_all(b"Hello, world!").unwrap();
 let mut f = File::open("foo.txt").unwrap();
 let mut content = String::new();
 f.read_to_string(&mut content).unwrap();
+```
+
+## Get current timestamp in seconds
+
+```rs
+let now = std::time::SystemTime::now()
+    .duration_since(std::time::UNIX_EPOCH)
+    .unwrap()
+   .as_secs();
+```
+
+```py
+import time
+
+now = int(time.time())
 ```
