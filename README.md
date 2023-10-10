@@ -182,10 +182,9 @@ f.read_to_string(&mut content).unwrap();
 ## Get current timestamp in seconds
 
 ```rs
-let now = std::time::SystemTime::now()
-    .duration_since(std::time::UNIX_EPOCH)
-    .unwrap()
-   .as_secs();
+use use chrono::offset::Utc;
+
+let now = Utc::now().timestamp() as u64
 ```
 
 ```py
