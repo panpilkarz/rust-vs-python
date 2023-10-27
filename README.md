@@ -14,6 +14,7 @@
 * [Get min and max of two values](#get-min-and-max-of-two-values)
 * [Read/write from/to file](#readwrite-fromto-file)
 * [Get current timestamp in seconds](#get-current-timestamp-in-seconds)
+* [Sleep in async program](#async-sleep)
 
 ## Read line from stdin
 
@@ -191,4 +192,19 @@ let now = Utc::now().timestamp() as u64
 import time
 
 now = int(time.time())
+```
+
+## Async sleep
+
+```rs
+use std::time::Duration;
+use tokio::time;
+
+time::sleep(Duration::from_secs(2)).await;
+```
+
+```py
+import async
+
+await asyncio.sleep(2)
 ```
