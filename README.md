@@ -15,6 +15,8 @@
 * [Read/write from/to file](#readwrite-fromto-file)
 * [Get current timestamp in seconds](#get-current-timestamp-in-seconds)
 * [Sleep in async program](#async-sleep)
+* [Increment dict value](#increment-dict-value)
+* [Push value to dict of vectors](#push-value-to-dict-of-vectors)
 
 ## Read line from stdin
 
@@ -207,4 +209,27 @@ time::sleep(Duration::from_secs(2)).await;
 import async
 
 await asyncio.sleep(2)
+```
+
+## Increment dict value
+
+```py
+map = {}
+map[50] = map.get(50, 0) + 1
+```
+
+```rs
+let mut map: HashMap<u64, u64> = HashMap::new();
+*map.entry(50).or_insert(0) += 1;
+```
+
+## Push value to dict of vectors
+```py
+map = {}
+map.setdefault(50, []).append(0);
+```
+
+```rs
+let mut map: HashMap<u64, u64> = HashMap::new();
+map.entry(50).or_default().push(0);
 ```
