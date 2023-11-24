@@ -34,7 +34,7 @@ line = input("Type something")
 
 ```rs
 let x = 5
-println!("Variable x equals to {x}")
+println!("Variable x equals to {}", x)
 ```
 
 ```py
@@ -46,13 +46,11 @@ print(f"Variable x equals to {x}")
 
 ```rs
 use rand::Rnd;
-
 let n = rand::thread_rng().gen_range(0..10)
 ```
 
 ```py
 import random
-
 n = random.randint(0, 10)
 ```
 
@@ -76,7 +74,6 @@ sys::process.exit(255)
 
 ```py
 import sys
-
 sys.exit(255)
 ```
 
@@ -88,7 +85,6 @@ let args = std::env::args(); // iterator
 
 ```py
 import sys
-
 args = sys.argv # list
 ```
 
@@ -151,25 +147,16 @@ x = 12 if a > 10 else 30;
 ```
 
 ## Get min and max of two values
+```rs
+use std::cmp::{min, max};
+let (max_v, min_v) = (max(10, 50), min(10, 50));
+```
 
 ```py
 max_v, min_v = max(10, 50), min(10, 50)
 ```
 
-```rs
-use std::cmp::{min, max};
-
-let (max_v, min_v) = (max(10, 50), min(10, 50));
-```
-
 ## Read/write from/to file
-```py
-with open("foo.txt", "w") as f:
-    f.write("Hello, world!")
-
-content = open("foo.txt").read()
-```
-
 ```rs
 use std::fs::File;
 use std::io::prelude::*;
@@ -182,17 +169,22 @@ let mut content = String::new();
 f.read_to_string(&mut content).unwrap();
 ```
 
+```py
+with open("foo.txt", "w") as f:
+    f.write("Hello, world!")
+
+content = open("foo.txt").read()
+```
+
 ## Get current timestamp in seconds
 
 ```rs
 use use chrono::offset::Utc;
-
 let now = Utc::now().timestamp() as u64
 ```
 
 ```py
 import time
-
 now = int(time.time())
 ```
 
@@ -201,35 +193,32 @@ now = int(time.time())
 ```rs
 use std::time::Duration;
 use tokio::time;
-
 time::sleep(Duration::from_secs(2)).await;
 ```
 
 ```py
 import async
-
 await asyncio.sleep(2)
 ```
 
 ## Increment dict value
+```rs
+let mut map: HashMap<u64, u64> = HashMap::new();
+*map.entry(50).or_insert(0) += 1;
+```
 
 ```py
 map = {}
 map[50] = map.get(50, 0) + 1
 ```
 
-```rs
-let mut map: HashMap<u64, u64> = HashMap::new();
-*map.entry(50).or_insert(0) += 1;
-```
-
 ## Push value to dict of vectors
-```py
-map = {}
-map.setdefault(50, []).append(0);
-```
-
 ```rs
 let mut map: HashMap<u64, u64> = HashMap::new();
 map.entry(50).or_default().push(0);
+```
+
+```py
+map = {}
+map.setdefault(50, []).append(0);
 ```
