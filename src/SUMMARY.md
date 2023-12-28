@@ -1,0 +1,21 @@
+[Welcome to Rust vs Python ](index.md)
+
+# Table of content
+
+- [Read line from stdin](read_line_from_stdin.md)
+- [Print formatted string](print_formatted_string.md)
+- [Random number in range](random_number_in_range.md)
+- [String to int](string_to_int.md)
+- [Exit with code](exit_with_code.md)
+- [Read command line arguments](read_command_line_arguments.md)
+- [Enumerate string](enumerate_string.md)
+- [Enumerate vector](enumerate_vector.md)
+- [Print line separator](print_line_separator.md)
+- [Map vector](map_vector.md)
+- [Ternary operator](ternary_operator.md)
+- [Get min and max of two values](get_min_and_max_of_two_values.md)
+- [Read/write from/to file](readwrite_fromto_file.md)
+- [Get current timestamp in seconds](get_current_timestamp_in_seconds.md)
+- [Sleep in async program](async_sleep.md)
+- [Increment dict value](increment_dict_value.md)
+- [Push value to dict of vectors](push_value_to_dict_of_vectors.md)
