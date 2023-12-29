@@ -19,3 +19,4 @@
 - [Sleep in async program](async_sleep.md)
 - [Increment dict value](increment_dict_value.md)
 - [Push value to dict of vectors](push_value_to_dict_of_vectors.md)
+- [Measure execution time](measure_execution_time.md)
