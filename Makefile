@@ -3,5 +3,5 @@ build:
 	open book/index.html
 
 deploy: 
-	rsync -zavr --delete book/ root@droplet1:/var/www/alice-bob.dev/www/
+	rsync -zavr --delete book/ root@rust-indexed.com:/var/www/rust-indexed.com/www/rust-vs-python/
 
