@@ -2,7 +2,7 @@
 
 ## Rust
 ```rust
-sys::process.exit(255)
+std::process::exit(255)
 ```
 
 ## Python
