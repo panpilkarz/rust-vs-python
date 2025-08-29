@@ -18,6 +18,7 @@
 - [Get current timestamp in seconds](get_current_timestamp_in_seconds.md)
 - [Sleep in async program](async_sleep.md)
 - [Increment dict value](increment_dict_value.md)
-- [Push value to dict of vectors](push_value_to_dict_of_vectors.md)
+- [Push value to a dict of vectors](push_value_to_a_dict_of_vectors.md)
 - [Measure execution time](measure_execution_time.md)
 - [Read environment variable](read_environment_variable.md)
+- [Implement custom formatting for a data type](implement_custom_formatting_for_a_data_type.md)

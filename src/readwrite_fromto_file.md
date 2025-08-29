@@ -5,7 +5,7 @@ use std::fs::File;
 use std::io::prelude::*;
 
 let mut f = File::create("foo.txt").unwrap();
-f.write_all(b"Hello, world!").unwrap();
+write!(f, "Hello, world!").unwrap();
 
 let mut f = File::open("foo.txt").unwrap();
 let mut content = String::new();
