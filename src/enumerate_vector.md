@@ -8,6 +8,6 @@ for (i, element) in vector.iter().enumerate() {
 
 ## Python
 ```python
-for i, element in vector:
+for i, element in enumerate(vector):
     ...
 ```
