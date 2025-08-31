@@ -2,7 +2,7 @@
 ## Rust
 ```rust
 use std::fs::File;
-use std::io::prelude::*;
+use std::io::{Read, Write};
 
 let mut f = File::create("foo.txt").unwrap();
 write!(f, "Hello, world!").unwrap();
