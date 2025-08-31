@@ -2,8 +2,8 @@
 
 ## Rust
 ```rust
-use use chrono::offset::Utc;
-let now = Utc::now().timestamp() as u64
+use std::time::{SystemTime, UNIX_EPOCH};
+let now = SystemTime::now().duration_since(UNIX_EPOCH).unwrap().as_secs()
 ```
 
 ## Python
