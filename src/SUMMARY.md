@@ -23,3 +23,4 @@
 - [Read environment variable](read_environment_variable.md)
 - [Implement custom formatting for a data type](implement_custom_formatting_for_a_data_type.md)
 - [Zip two vectors](zip_two_vectors.md)
+- [Read a file line by line](read_a_file_line_by_line.md)
