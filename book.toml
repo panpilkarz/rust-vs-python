@@ -7,3 +7,6 @@ title = "Rust vs Python"
 
 [output.html]
 git-repository-url = "https://github.com/panpilkarz/rust-vs-python"
+
+[output.html.search]
+enable = true
